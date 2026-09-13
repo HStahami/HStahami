@@ -1,0 +1,116 @@
+/* ==: ======================================================================
+   PREPARE: Tailwind CSS Directives
+   ====================================================================== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==: ======================================================================
+   GLOBAL RESET & TYPOGRAPHY BASE
+   ====================================================================== */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+    background: #050507;
+  }
+
+  body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    line-height: 1.75;
+    color: #e5e5e5;
+    background: #050507;
+    background-image: url('../assets/textures/dark-grid.svg');
+    background-size: 1px 1px;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.05;
+    color: #ffffff;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+/* ==: ======================================================================
+   UTILITY EXTENSIONS: Premium Portfolio Components
+   ====================================================================== */
+@layer utilities {
+  .text-gradient-white {
+    background: linear-gradient(90deg, #ffffff 0%, #dfe3ea 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-cyan {
+    background: linear-gradient(90deg, #7ee7ff 0%, #00f0ff 30%, #bf5fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glass-card {
+    background: rgba(11, 12, 18, 0.7);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.75rem;
+  }
+
+  .shadow-obsidian {
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+  }
+
+  .project-card {
+    transform-style: preserve-3d;
+    will-change: transform, box-shadow;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .floating-orb,
+  .floating-panel {
+    will-change: transform;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes floatUp {
+  0% { opacity: 0; transform: translateY(18px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

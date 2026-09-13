@@ -1,0 +1,42 @@
+{
+  "name": "portfolio-infra",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Premium developer portfolio — ultra-dark theme, GSAP micro-animations, Tailwind CSS",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "framer-motion": "^10.18.0",
+    "gsap": "^3.12.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "stylelint-config-tailwindcss": "^1.0.1",
+    "tailwindcss": "^3.4.6",
+    "vite": "^8.3.0"
+  },
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HStahami/HStahami.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HStahami/HStahami/issues"
+  },
+  "homepage": "https://github.com/HStahami/HStahami#readme"
+}
