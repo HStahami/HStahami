@@ -4,7 +4,7 @@ const projects = [
   {
     title: 'Al Arabia FI LMS',
     category: 'Learning Management System',
-    description: 'A comprehensive learning platform for Islamic education. Built with React, Node.js, and PostgreSQL. Features include course management, student tracking, progress monitoring, and interactive learning modules.',
+    description: 'A full-featured digital learning platform designed for Islamic education, with course management, learner tracking, progress visibility, and a clean experience for both students and admins.',
     accent: 'from-[#00f0ff]/30 via-[#00f0ff]/10 to-transparent',
     tags: ['React', 'Node.js', 'PostgreSQL'],
     link: 'https://alarabiafi.vercel.app/',
@@ -12,8 +12,8 @@ const projects = [
   },
   {
     title: 'EventSphere',
-    category: 'Event Management System',
-    description: 'A collaborative group project for managing events efficiently. Includes event creation, attendee management, scheduling, and real-time notifications. Built with modern web technologies for scalability.',
+    category: 'Event Management Platform',
+    description: 'A collaborative event management system built for streamlined planning, attendee coordination, scheduling, and operational visibility across the full event lifecycle.',
     accent: 'from-[#bf5fff]/30 via-[#bf5fff]/10 to-transparent',
     tags: ['Full-stack', 'Real-time', 'Database Design'],
     link: '#projects',
@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Sustainable Living App',
     category: 'Mobile Application',
-    description: 'A native mobile app for encouraging eco-friendly habits and sustainable living. Built with Flutter, Dart, and Firebase to support daily tracking, challenges, progress insights, and community-driven sustainability goals.',
+    description: 'A mobile-first sustainability solution focused on habit tracking, progress insights, and community-driven goals to help users build eco-conscious routines.',
     accent: 'from-[#57e6a5]/30 via-[#57e6a5]/10 to-transparent',
     tags: ['Flutter', 'Dart', 'Firebase'],
     link: '#projects',

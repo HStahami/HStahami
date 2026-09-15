@@ -27,7 +27,7 @@ function Hero() {
           </h1>
 
           <p className="animate-in mt-6 max-w-xl text-lg leading-8 text-white/70">
-            Building full-stack products with clean code, thoughtful design, and scalable systems. I specialize in creating web experiences that solve real problems.
+            I design and build fast, polished web experiences that turn ideas into real products. From product thinking to deployment, I focus on clean systems, smooth UX, and measurable business value.
           </p>
 
           <div className="animate-in mt-8 flex flex-wrap items-center gap-4">
@@ -35,7 +35,7 @@ function Hero() {
               View my work
             </a>
             <a href="#contact" className="rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white/90 transition hover:border-white/30 hover:bg-white/10">
-              Get in touch
+              Let&apos;s talk
             </a>
           </div>
 
