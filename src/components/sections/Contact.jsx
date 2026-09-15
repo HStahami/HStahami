@@ -54,19 +54,19 @@ function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-7xl px-6 pb-20 pt-8 md:pb-28">
       <div className="animate-in rounded-[32px] border border-white/10 bg-[radial-gradient(circle_at_top_left,_rgba(0,240,255,0.12),transparent_30%),linear-gradient(135deg,#0d0f16,#090a0f)] p-8 shadow-[0_25px_80px_rgba(0,0,0,0.55)] md:p-10">
-        <div className="flex flex-col gap-8 lg:gap-12">
-          <div className="max-w-2xl">
+        <div className="flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-start">
+          <div className="flex-1">
             <p className="text-sm uppercase tracking-[0.22em] text-accent-electric">Get in touch</p>
             <h2 className="mt-4 text-4xl font-black tracking-[-0.05em] text-white md:text-5xl">
               Need a reliable freelance developer?
             </h2>
-            <p className="mt-4 max-w-xl text-white/70">
+            <p className="mt-4 text-white/70">
               I help startups, businesses, and founders build sleek digital products, improve user experience, and turn ideas into reliable web experiences. Whether you need a landing page, a product MVP, or a full-stack build, I&apos;d love to hear about it.
             </p>
           </div>
 
           {/* Contact Form */}
-          <form onSubmit={handleSubmit} className="max-w-2xl space-y-4">
+          <form onSubmit={handleSubmit} className="flex-1 space-y-4">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               <input
                 type="text"
