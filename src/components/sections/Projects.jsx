@@ -21,10 +21,10 @@ const projects = [
   },
   {
     title: 'Sustainable Living App',
-    category: 'Mobile Web Application',
-    description: 'A collaborative project promoting eco-friendly lifestyle choices. Features environmental tracking, sustainability tips, community challenges, and progress visualization for users to monitor their green habits.',
+    category: 'Mobile Application',
+    description: 'A native mobile app for encouraging eco-friendly habits and sustainable living. Built with Flutter, Dart, and Firebase to support daily tracking, challenges, progress insights, and community-driven sustainability goals.',
     accent: 'from-[#57e6a5]/30 via-[#57e6a5]/10 to-transparent',
-    tags: ['React', 'Responsive Design', 'UX Focus'],
+    tags: ['Flutter', 'Dart', 'Firebase'],
     link: '#projects',
     linkText: 'View details',
   },
