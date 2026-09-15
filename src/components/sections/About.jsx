@@ -20,17 +20,17 @@ function About() {
         <div className="animate-in">
           <p className="text-sm uppercase tracking-[0.22em] text-accent-electric">About me</p>
           <h2 className="mt-4 text-4xl font-black tracking-[-0.05em] text-white md:text-5xl">
-            Product-minded developer focused on real-world impact.
+            Helping brands and founders build better digital products.
           </h2>
         </div>
 
         <div className="space-y-8 text-white/70">
           <p className="animate-in text-lg leading-8">
-            I&apos;m Shaikh Tahami, a full-stack developer based in Pakistan with a passion for building modern, scalable products that feel effortless to use. I enjoy turning complex problems into thoughtful, well-crafted digital experiences.
+            I&apos;m Shaikh Tahami, a full-stack developer and freelance partner helping businesses turn ideas into products that are clean, scalable, and memorable. I work closely with founders, teams, and brands to design and build experiences that feel premium and perform reliably.
           </p>
 
           <p className="animate-in leading-8">
-            My work spans front-end interfaces, back-end systems, and product delivery—from concept to deployment. I care deeply about performance, maintainability, and user trust, and I&apos;ve helped build solutions ranging from learning platforms to event and sustainability-focused applications.
+            My work spans product design support, front-end interfaces, back-end systems, and product delivery—from first concept to launch. I care about performance, maintainability, and user trust, and I&apos;ve helped build solutions for education, events, and sustainability-focused initiatives.
           </p>
 
           <div className="grid gap-4 md:grid-cols-2">

@@ -19,7 +19,7 @@ function Hero() {
         <div>
           <div className="animate-in mb-6 inline-flex items-center gap-2 rounded-full border border-accent-electric/30 bg-accent-electric/10 px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.22em] text-accent-electric">
             <span className="h-2 w-2 rounded-full bg-accent-electric" />
-            Full-stack developer
+            Freelance full-stack developer
           </div>
 
           <h1 className="animate-in max-w-3xl text-5xl font-black leading-[0.92] tracking-[-0.06em] text-white md:text-7xl xl:text-[5.5rem]">
@@ -27,7 +27,7 @@ function Hero() {
           </h1>
 
           <p className="animate-in mt-6 max-w-xl text-lg leading-8 text-white/70">
-            I design and build fast, polished web experiences that turn ideas into real products. From product thinking to deployment, I focus on clean systems, smooth UX, and measurable business value.
+            I build polished digital products for startups, founders, and businesses that want better experiences, cleaner systems, and faster execution. From strategy to launch, I focus on quality, clarity, and business value.
           </p>
 
           <div className="animate-in mt-8 flex flex-wrap items-center gap-4">
@@ -35,7 +35,7 @@ function Hero() {
               View my work
             </a>
             <a href="#contact" className="rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white/90 transition hover:border-white/30 hover:bg-white/10">
-              Let&apos;s talk
+              Start a project
             </a>
           </div>
 
