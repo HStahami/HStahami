@@ -152,3 +152,166 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ==: ======================================================================
+   LIGHT MODE THEME OVERRIDES: Complete Color Theme
+   ====================================================================== */
+:is(.light) {
+  /* Text colors - flip white to black */
+  --text-white: #1a1a1a;
+  --text-white-80: #333333;
+  --text-white-70: #4a4a4a;
+  --text-white-50: #7a7a7a;
+  --text-white-45: #888888;
+
+  /* Background colors */
+  --bg-dark: #ffffff;
+  --bg-dark-semi: rgba(255, 255, 255, 0.95);
+  
+  /* Border colors */
+  --border-white-20: rgba(0, 0, 0, 0.2);
+  --border-white-15: rgba(0, 0, 0, 0.15);
+  --border-white-10: rgba(0, 0, 0, 0.1);
+  --border-white-8: rgba(0, 0, 0, 0.08);
+}
+
+/* Text colors */
+:is(.light) .text-white {
+  color: #1a1a1a !important;
+}
+
+:is(.light) .text-white\/70 {
+  color: rgba(26, 26, 26, 0.7) !important;
+}
+
+:is(.light) .text-white\/80 {
+  color: rgba(26, 26, 26, 0.8) !important;
+}
+
+:is(.light) .text-white\/90 {
+  color: rgba(26, 26, 26, 0.9) !important;
+}
+
+:is(.light) .text-white\/50 {
+  color: rgba(26, 26, 26, 0.5) !important;
+}
+
+:is(.light) .text-white\/45 {
+  color: rgba(26, 26, 26, 0.45) !important;
+}
+
+:is(.light) .text-white\/65 {
+  color: rgba(26, 26, 26, 0.65) !important;
+}
+
+:is(.light) .text-white\/75 {
+  color: rgba(26, 26, 26, 0.75) !important;
+}
+
+/* Placeholder colors */
+:is(.light) .placeholder-white\/50::placeholder {
+  color: rgba(26, 26, 26, 0.5) !important;
+}
+
+/* Form input styles for light mode */
+:is(.light) input,
+:is(.light) textarea {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  color: #1a1a1a !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+:is(.light) input:focus,
+:is(.light) textarea:focus {
+  border-color: #00f0ff !important;
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Handle complex gradient backgrounds - Contact section */
+:is(.light) .rounded-\[32px\] {
+  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%) !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* All small text with reduced opacity */
+:is(.light) .text-\[10px\] {
+  color: rgba(26, 26, 26, 0.45) !important;
+}
+
+/* Emerald/success colors stay same */
+:is(.light) .border-emerald-400\/25 {
+  border-color: rgba(52, 168, 84, 0.4) !important;
+}
+
+:is(.light) .bg-emerald-500\/10 {
+  background-color: rgba(52, 168, 84, 0.1) !important;
+}
+
+:is(.light) .text-emerald-300 {
+  color: #22c55e !important;
+}
+
+:is(.light) .bg-emerald-400 {
+  background-color: #22c55e !important;
+}
+
+/* Background colors with white opacity */
+:is(.light) .bg-white\/5 {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+:is(.light) .bg-white\/10 {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+:is(.light) .bg-white\/15 {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Border colors with white opacity */
+:is(.light) .border-white\/10 {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+:is(.light) .border-white\/15 {
+  border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+:is(.light) .border-white\/20 {
+  border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+:is(.light) .border-white\/30 {
+  border-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Hardcoded hex colors used in components */
+:is(.light) .bg-\[\#0c0d12\]\/90 {
+  background-color: rgba(240, 240, 240, 0.9) !important;
+}
+
+:is(.light) .bg-\[\#0d0d13\] {
+  background-color: #f5f5f5 !important;
+}
+
+:is(.light) .bg-\[\#0a0b10\]\/80 {
+  background-color: rgba(245, 245, 245, 0.8) !important;
+}
+
+:is(.light) .bg-\[\#050507\]\/80 {
+  background-color: rgba(250, 250, 250, 0.9) !important;
+}
+
+:is(.light) .bg-\[\#0d0f16\] {
+  background-color: #f0f0f0 !important;
+}
+
+/* Section backgrounds */
+:is(.light) .bg-gradient-dark {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%) !important;
+}
+
+/* Contact section gradient background */
+:is(.light) .bg-\[radial-gradient\(circle_at_top_left,_rgba\(0,240,255,0.12\),transparent_30%\),linear\-gradient\(135deg,\#0d0f16,\#090a0f\)\] {
+  background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%) !important;
+}
