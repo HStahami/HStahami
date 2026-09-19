@@ -1,6 +1,6 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: ['class'],
+  darkMode: ['class', '[data-theme="dark"]'],
   theme: {
     extend: {
       colors: {
@@ -28,6 +28,7 @@ module.exports = {
         'gradient-dark': 'linear-gradient(135deg, #050507 0%, #0a0a0f 100%)',
         'gradient-velvet': 'linear-gradient(135deg, #0a0a0f 0%, #1a0a1f 100%)',
         'gradient-accent': 'linear-gradient(90deg, #00f0ff, #bf5fff)',
+        'gradient-light': 'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)',
       },
     },
   },
