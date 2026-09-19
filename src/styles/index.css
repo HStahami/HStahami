@@ -310,8 +310,3 @@
 :is(.light) .bg-gradient-dark {
   background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%) !important;
 }
-
-/* Contact section gradient background */
-:is(.light) .bg-\[radial-gradient\(circle_at_top_left,_rgba\(0,240,255,0.12\),transparent_30%\),linear\-gradient\(135deg,\#0d0f16,\#090a0f\)\] {
-  background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%) !important;
-}
