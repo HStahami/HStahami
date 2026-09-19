@@ -39,6 +39,16 @@ export function ThemeProvider({ children }) {
 
   const toggleTheme = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark'
+    
+    // Add smooth transition class
+    const htmlElement = document.documentElement
+    htmlElement.classList.add(`${newTheme}-transition`)
+    
+    // Remove transition class after animation completes
+    setTimeout(() => {
+      htmlElement.classList.remove(`${newTheme}-transition`)
+    }, 500)
+    
     setTheme(newTheme)
     applyTheme(newTheme)
     localStorage.setItem('theme', newTheme)
